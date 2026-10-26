@@ -1,9 +1,9 @@
 class Tempo9 < Formula
   desc "Server-grade LLM inference on Apple Silicon (continuous batching, paged KV)"
   homepage "https://github.com/thinkspread/tempo9"
-  url "https://github.com/thinkspread/tempo9/releases/download/v1.1.3/tempo9-1.1.3-macos-arm64.tar.gz"
-  sha256 "29464638e11bf3e04573282b897278d45ef3edfbcd993220805011f6b860a324"
-  version "1.1.3"
+  url "https://github.com/thinkspread/tempo9/releases/download/v1.2.0/tempo9-1.2.0-macos-arm64.tar.gz"
+  sha256 "98c8a9bb19c1939db7c0e05c9425954180c2c4329d0d0bf9f4e67ff336a60d40"
+  version "1.2.0"
 
   depends_on arch: :arm64
   # The binary is linked for macOS 26: declared lower, the engine's Metal
